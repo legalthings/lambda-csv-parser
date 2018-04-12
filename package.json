@@ -1,5 +1,8 @@
 {
   "name": "lambda-csv-parser",
+  "engines": {
+    "node": ">= 8.10.0"
+  },
   "version": "1.0.0",
   "description": "Parse CSV with AWS lambda",
   "main": "index.js",
@@ -7,9 +10,9 @@
     "test": "tests"
   },
   "dependencies": {
-    "aws-sdk": "^2.133.0",
+    "aws-sdk": "^2.224.1",
     "bluebird": "^3.5.1",
-    "csv-parse": "^2.0.0",
+    "json-2-csv": "^2.2.0",
     "lambda-local": "^1.4.3",
     "nock": "^9.0.22",
     "request": "^2.83.0",
