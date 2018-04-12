@@ -3,7 +3,7 @@ LegalThings - AWS Lambda CSV parser
 
 ## Requirements
 
-- [Node.js (ES6)](https://nodejs.org) >= 5.0.0
+- [Node.js (ES6)](https://nodejs.org) >= 8.1.0
 
 
 ## Installation

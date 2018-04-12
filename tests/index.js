@@ -30,6 +30,8 @@ describe('index', () => {
           { "name": "jane", "email": "jane@example.com" },
           { "name": "bob ross", "email": "bob@example.com" }
         ]);
+      }).catch((err) => {
+        should(err).be.null;
       });
     });
 
@@ -56,6 +58,8 @@ describe('index', () => {
           'jane,jane@example.com',
           'bob ross,bob@example.com'
         ].join('\n'));
+      }).catch((err) => {
+        should(err).be.null;
       });
     });
 

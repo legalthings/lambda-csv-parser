@@ -12,6 +12,5 @@ exports.handler = async (event) => {
   }
 
   const parser = new Parser();
-
   return await parser.parseEvent(event);
 };
